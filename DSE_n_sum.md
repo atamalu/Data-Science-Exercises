@@ -3,7 +3,7 @@ Untitled
 
 ## Introduction
 
-This exercise is typically solved using Hashmaps. However, these are not
+This exercise is typically solved using Hashtables. However, these are not
 available in base R. So to start, I decided to use this as a chance to
 add solutions to the already-exhaustive list.
 
@@ -81,6 +81,6 @@ n_sum(given_nums = given.nums, target_num = target.num, comb_len = 4)
 The last few lines can be changed to `return(combo.mat[, i])` but a full
 text return may help for educational purposes.
 
-## Solution 2: Hashmap alternative
+## Solution 2: Enviroments as a hashtable
 
 Coming soon…
