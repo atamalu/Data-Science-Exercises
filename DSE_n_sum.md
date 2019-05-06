@@ -6,10 +6,6 @@ Two/Three/Four Sum
 This exercise is typically solved using Hashmaps. However, there is no
 native support for these in R. So here are some workarounds from scratch
 
-This exercise is typically solved using Hashtables. However, these are not
-available in base R. So to start, I decided to use this as a chance to
-add solutions to the already-exhaustive list.
-
 ## Problem
 
 Given an array of integers, return indices of the n numbers such that
@@ -108,16 +104,3 @@ threesum <- n_sum2(given_nums = given.nums, target_num = target.num, comb_len = 
 foursum <- n_sum2(given_nums = given.nums, target_num = target.num, comb_len = 4)
 list('2sum' = twosum, '3sum' = threesum, '4sum' = foursum)
 ```
-
-## Solution 2: Enviroments as a hashtable
-
-    ## $`2sum`
-    ##      [,1] [,2]
-    ## [1,]    5    6
-    ## [2,]    6    9
-    ## 
-    ## $`3sum`
-    ## [1] 1 3 7
-    ## 
-    ## $`4sum`
-    ## [1] 1 2 3 4
