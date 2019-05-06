@@ -6,7 +6,6 @@ Two/Three/Four Sum
 This exercise is typically solved using Hashmaps. However, there is no
 native support for these in R. So here are some workarounds from scratch
 
-=======
 This exercise is typically solved using Hashtables. However, these are not
 available in base R. So to start, I decided to use this as a chance to
 add solutions to the already-exhaustive list.
@@ -101,8 +100,7 @@ n_sum2 <- function(given_nums, target_num, comb_len){
 }
 ```
 
-Again testing the
-function:
+Again testing the function:
 
 ``` r
 twosum <- n_sum2(given_nums = given.nums, target_num = target.num, comb_len = 2)
@@ -112,7 +110,6 @@ list('2sum' = twosum, '3sum' = threesum, '4sum' = foursum)
 ```
 =======
 ## Solution 2: Enviroments as a hashtable
->>>>>>> 0da60aeb4fab5ff5142b2e37de568c5cf7571794
 
     ## $`2sum`
     ##      [,1] [,2]
