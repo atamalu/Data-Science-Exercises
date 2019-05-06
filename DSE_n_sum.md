@@ -4,7 +4,8 @@ Two/Three/Four Sum
 ## Introduction
 
 This exercise is typically solved using Hashmaps. However, there is no
-native support for these in R. So here are some workarounds from scratch
+native support for these in R. So here are some workarounds from
+scratch.
 
 ## Problem
 
@@ -96,7 +97,8 @@ n_sum2 <- function(given_nums, target_num, comb_len){
 }
 ```
 
-Again testing the function:
+Again testing the
+function:
 
 ``` r
 twosum <- n_sum2(given_nums = given.nums, target_num = target.num, comb_len = 2)
@@ -105,4 +107,13 @@ foursum <- n_sum2(given_nums = given.nums, target_num = target.num, comb_len = 4
 list('2sum' = twosum, '3sum' = threesum, '4sum' = foursum)
 ```
 
-=
+    ## $`2sum`
+    ##      [,1] [,2]
+    ## [1,]    5    6
+    ## [2,]    6    9
+    ## 
+    ## $`3sum`
+    ## [1] 1 3 7
+    ## 
+    ## $`4sum`
+    ## [1] 1 2 3 4
